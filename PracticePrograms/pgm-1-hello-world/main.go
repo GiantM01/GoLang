@@ -5,11 +5,9 @@ import (
 	"math"
 )
 
-  
-
 func main() {
-    x:="Hello World"
-		fmt.Println(x)
-    fmt.Println("!... Hello World ...!")
-    fmt.Println(math.Pi)
+	x := "Hello World"
+	fmt.Println(x)
+	fmt.Println("!... Hello World ...!")
+	fmt.Println(math.Pi)
 }

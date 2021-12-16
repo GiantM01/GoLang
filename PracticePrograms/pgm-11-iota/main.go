@@ -2,21 +2,22 @@ package main
 
 import "fmt"
 
-const(
-	a= iota
+const (
+	a = iota
 	b
 	c
-	d= iota
+	// d = iota
+	// e
+	// f
+)
+
+const (
+	d = iota
 	e
 	f
 )
-/*const(
-	d= iota
-	e
-	f
-)*/
 
-func main(){
+func main() {
 	fmt.Println(a)
 	fmt.Println(b)
 	fmt.Println(c)
